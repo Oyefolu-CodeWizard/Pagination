@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-content" style="display: none">
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m2.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Afolabi</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m3.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Abdul Salam</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m4.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Bolu</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m5.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Pstar</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m6.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Okoye</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m7.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Emmanuel</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m8.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Mr Sam</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/models/m1.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Mr Dominic</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/food/food1.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Mimie</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/food/food2.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Mr Sleek</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/food/food3.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Mr Habeeb</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/food/food4.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Victor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/food/food5.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Abdul Rahmon</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/d/domino images/fruit.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Kachi</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/d/domino images/pepperroni.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Mrs Tosin</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/d/domino images/pizzahouse.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Ayo Ola</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/d/domino images/smallimage.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Samson</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/d/domino images/smallimage2.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Kingsley</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/d/domino images/vegetable.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Ola</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/sofa.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Mary</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/clothbanner.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Jane</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/sleek1.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Florin Tech</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/sleek1.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Computer</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/sleek1.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>College</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/bodyshirt.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Creating</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/Infinity-2.6s-200px.gif" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>The</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/Preloader.gif" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Woo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/whiteshirt.png" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Sola</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/sofa.jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Salam</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/congrat.gif" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>Congratulations</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ullam culpa ipsam nihil ipsa qui, omnis corrupti itaque
+              harum pariatur adipisci tempora earum asperiores eum soluta
+              quidem, ab quo.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <!-- <li class="page-item previous-page disable">
+          <a href="" class="page-link">Prev</a>
+        </li>
+        <li class="page-item current-page active">
+          <a href="" class="page-link">1</a>
+        </li>
+        <li class="page-item dots">
+          <a href="" class="page-link">...</a>
+        </li>
+        <li class="page-item current-page">
+          <a href="" class="page-link">5</a>
+        </li>
+        <li class="page-item current-page">
+          <a href="" class="page-link">6</a>
+        </li>
+        <li class="page-item dots">
+          <a href="" class="page-link">...</a>
+        </li>
+        <li class="page-item current-page">
+          <a href="" class="page-link">10</a>
+        </li>
+        <li class="page-item next-page">
+          <a href="" class="page-link">Next</a>
+        </li> -->
+      </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
